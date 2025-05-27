@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация | Курсы макияжа</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-form">
+            <div class="logo">
+                <h1>Курсы макияжа от Анныгг</h1>
+            </div>
+            
+            <form id="registerForm">
+                <h2>Создать аккаунт</h2>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Ваш email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" required placeholder="Придумайте пароль" minlength="6">
+                    <div class="password-hint">Минимум 6 символов</div>
+                </div>
+                
+                <button type="submit" class="register-btn">
+                    <span class="btn-text">Зарегистрироваться</span>
+                </button>
+                
+                <div class="auth-links">
+                    Уже есть аккаунт? <a href="login.html">Войти</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
